@@ -1,0 +1,22 @@
+.rightside-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color:  #F4F8FB;
+}
+.center {
+  background-color: pink;
+  width: 100%;
+  height: 60%;
+}
+.footer {
+  position: inherit;
+  background-color:  #F4F8FB!important;
+  width: 100%;
+  margin-top: 30px;
+  height: 300px;
+  overflow: hidden;
+  border-top: 1px solid gray;
+}

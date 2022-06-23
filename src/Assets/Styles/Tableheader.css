@@ -1,0 +1,13 @@
+.tableheader-main{
+    width: inherit;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aquamarine;
+  
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,24 @@
+.view-main-div {
+  position: relative;
+  width: auto;
+  height: auto;
+  overflow-x: hidden;
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: row !important;
+}
+.leftside {
+  height: auto;
+  width: 20%;
+  background-color: #142d52;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+}
+.rightside {
+  position: relative;
+  width: 80%;
+  height: auto;
+  background-color: #f4f8fb !important;
+  padding: 30px 40px 0px 40px;
+}
