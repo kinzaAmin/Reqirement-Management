@@ -14,7 +14,7 @@ const Leftside = () => {
         </div>
         <div className="my-recruitment" style={{ marginLeft: "8px" }}>
           <img alt="" src={Bag} />
-          <span style={{ marginLeft: "10px" }}> My Recruitment</span>
+          <span style={{ marginLeft: "10px" , cursor:"pointer" }}> My Recruitment</span>
         </div>
       </div>
       <div className="lower-part">

@@ -9,11 +9,11 @@ import dp from "../../Assets/images/Ellipse 2.png";
 import group from "../../Assets/images/group1.png";
 import "../../Assets/Styles/Header.css";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className="header">
       <div className="title">
-        <span >My Recruitments</span>
+        <span >{props.label} </span>
       </div>
       <div className="header-end-portion">
         <div className="white-rectangle">

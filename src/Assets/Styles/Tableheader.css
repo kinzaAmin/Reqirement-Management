@@ -1,13 +1,51 @@
-.tableheader-main{
-    width: inherit;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: aquamarine;
+.tableheader-main {
+    position: inherit;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: aquamarine; */
+  background: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ padding: 0px 30px;
   
 }
-.menu{
-    display: flex;
-    justify-content: space-between;
+
+.menu {
+    width: 50%;
+  display: flex;
+  align-items: center;
+}
+.menu span{
+    margin-right: 20px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+cursor: pointer;
+color: #898989;
+}
+.createRequirementBtn{
+width: 246px;
+height: 50px;
+background: #06BF97;
+border: 1px solid #06BF97;
+border-radius: 3px;
+font-family: 'SF UI Text';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-right: 30px;
+color: #FFFFFF;
+cursor: pointer;
 }

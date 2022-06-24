@@ -3,16 +3,17 @@ import "../Assets/Styles/Rightside.css";
 import Header from "../Components/Subcomponents/Header";
 import Center from "../Components/Subcomponents/Center";
 import Footer from "../Components/Subcomponents/Footer";
-const Rightside =() => {
+import Form from "./Form";
+const Rightside = ( props) => {
 
     return(
         <div className="rightside-main">
         <div >
        
-        <Header/>
+        <Header label = {props.label} />
          </div>
          <div className="center">
-               <Center/>
+              {props.form ? <Form/> :  <Center/> }
          </div>
          
          <div className="footer"> 
