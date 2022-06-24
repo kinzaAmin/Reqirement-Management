@@ -9,7 +9,7 @@ const View = () => {
         <Leftside />
       </div>
       <div className="rightside">
-        <Rightside  label = "My Recruitments"/>
+        <Rightside label="My Recruitments" />
       </div>
     </div>
   );
